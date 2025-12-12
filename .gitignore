@@ -1,0 +1,23 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+.venv/
+venv/
+
+# Ignore dataset folder (your ASL images)
+dataset/
+
+# Ignore large ML model files (optional)
+*.pkl
+*.h5
+*.tflite
+
+# Ignore IDE config (optional but recommended)
+.idea/
+.vscode/
+
+# Ignore logs
+*.log

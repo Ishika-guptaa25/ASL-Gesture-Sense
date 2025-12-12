@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ASL Recognition (Real-time)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f6d5f7, #fbe9d7); /* pink-peach gradient */
+      font-family: "Poppins", sans-serif;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 30px;
+    }
+
+    h1 {
+      font-weight: 700;
+      margin-bottom: 25px;
+      font-size: 30px;
+      background: linear-gradient(90deg, #ff7eb3, #65d6ce);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* ---- Video Container ---- */
+    .video-wrapper {
+      position: relative;
+      width: 640px;
+      height: 480px;
+      border-radius: 20px;
+      overflow: hidden;
+      background: #000;
+      box-shadow: 0px 12px 35px rgba(255, 105, 180, 0.25);
+    }
+
+    video, canvas {
+      width: 640px;
+      height: 480px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: scaleX(-1);
+    }
+
+    /* ---- Prediction Box ---- */
+    .info-box {
+      margin-top: 30px;
+      padding: 20px 25px;
+      width: 640px;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+      backdrop-filter: blur(6px);
+      border: 1px solid rgba(255,255,255,0.5);
+    }
+
+    .title {
+      font-size: 16px;
+      opacity: 0.7;
+    }
+
+    .value {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      background: linear-gradient(90deg, #ff7eb3, #65d6ce);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 13px;
+      opacity: 0.7;
+      color: #444;
+    }
+  </style>
+
+  <!-- MediaPipe -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+</head>
+
+<body>
+
+  <h1>ASL Sign Detection (Real-time)</h1>
+
+  <div class="video-wrapper">
+    <video id="video" autoplay playsinline muted></video>
+    <canvas id="overlay"></canvas>
+  </div>
+
+  <div class="info-box">
+    <div class="title">Prediction</div>
+    <div class="value" id="prediction">—</div>
+
+    <div class="title">Confidence</div>
+    <div class="value" id="confidence">—</div>
+  </div>
+
+  <footer>ASL Recognition • MediaPipe + Machine Learning</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

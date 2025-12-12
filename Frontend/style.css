@@ -1,0 +1,9 @@
+/* frontend/style.css */
+body { font-family: Arial, sans-serif; background:#111; color:#eee; display:flex; justify-content:center; align-items:flex-start; min-height:100vh; margin:20px; }
+.container { width:720px; }
+h1 { font-size:20px; margin-bottom:8px; text-align:center; }
+.video-wrap { position:relative; width:640px; height:480px; margin:0 auto; background:#000; }
+video { position:absolute; left:0; top:0; width:640px; height:480px; transform: scaleX(-1); } /* mirror */
+canvas { position:absolute; left:0; top:0; width:640px; height:480px; pointer-events:none; transform: scaleX(-1); }
+.info { margin-top:10px; text-align:center; }
+#prediction { font-weight:700; color:#00ff88; }
