@@ -88,8 +88,6 @@
 </tr>
 </table>
 
-> 💡 **Tip:** Add your own screenshots by replacing the placeholder images above
-
 ### 📊 Performance Metrics
 
 | Metric | Value | Status |
