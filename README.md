@@ -601,22 +601,6 @@ This project is inspired by and dedicated to the deaf and hard-of-hearing commun
 
 ---
 
-## 📈 Statistics
-
-<div align="center">
-
-### Project Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ishika-guptaa25&repo=ASL-Gesture-Sense&show_icons=true&theme=radical)
-
-### Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Ishika-guptaa25/ASL-Gesture-Sense&type=Date)](https://star-history.com/#Ishika-guptaa25/ASL-Gesture-Sense&Date)
-
-</div>
-
----
-
 ## 📚 Citation
 
 If you use this project in your research or work, please cite:
