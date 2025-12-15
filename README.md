@@ -76,17 +76,12 @@
 <table>
 <tr>
 <td align="center" width="33%">
-<img src="https://via.placeholder.com/300x200/4A90E2/FFFFFF?text=Main+Interface" alt="Main Interface" />
-<br />
-<b>Main Interface</b>
-</td>
-<td align="center" width="33%">
-<img src="https://via.placeholder.com/300x200/50C878/FFFFFF?text=Live+Detection" alt="Live Detection" />
+<img width="1093" height="848" alt="image" src="https://github.com/user-attachments/assets/1fa9b26f-b377-4d6e-ab52-abeb9c4ddb38" alt="Live Detection" />
 <br />
 <b>Live Gesture Detection</b>
 </td>
 <td align="center" width="33%">
-<img src="https://via.placeholder.com/300x200/FF6B6B/FFFFFF?text=Prediction+Results" alt="Results" />
+ <img width="800" height="845" alt="image" src="https://github.com/user-attachments/assets/7e4d8298-e5ae-41e5-8852-5790e1c60507" alt="Results" />
 <br />
 <b>Prediction Results</b>
 </td>
