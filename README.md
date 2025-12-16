@@ -39,20 +39,12 @@
 
 ## ✨ Features
 
-<table>
-<tr>
-<td>
-
 ### 🎥 Core Features
 - ⚡ **Real-Time Recognition** - Instant ASL gesture translation
 - 🧠 **Deep Learning Model** - Custom CNN architecture
 - 📹 **Live Video Processing** - 30+ FPS webcam integration
 - 🎨 **Modern UI** - Clean React-based interface
 - 🔄 **Multi-Hand Support** - Track up to 2 hands simultaneously
-
-</td>
-</tr>
-</table>
 
 ---
 
