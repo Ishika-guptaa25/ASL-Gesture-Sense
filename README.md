@@ -41,7 +41,7 @@
 
 <table>
 <tr>
-<td width="50%">
+<td>
 
 ### 🎥 Core Features
 - ⚡ **Real-Time Recognition** - Instant ASL gesture translation
@@ -49,16 +49,6 @@
 - 📹 **Live Video Processing** - 30+ FPS webcam integration
 - 🎨 **Modern UI** - Clean React-based interface
 - 🔄 **Multi-Hand Support** - Track up to 2 hands simultaneously
-
-</td>
-<td width="50%">
-
-### 🛠️ Advanced Capabilities
-- 📊 **Confidence Scores** - Real-time prediction confidence
-- 🎯 **Gesture History** - Track previous predictions
-- 🌙 **Dark Mode** - Eye-friendly interface
-- 🔧 **Custom Training** - Train with your own dataset
-- 📱 **Responsive Design** - Works on all devices
 
 </td>
 </tr>
